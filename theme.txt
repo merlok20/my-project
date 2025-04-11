@@ -1,0 +1,7 @@
+https://webuniverseua.com/courses/js/theme23/theme.html
+
+замітки:
+///
+початок css видалити через відсутність фото
+///
+стилізація

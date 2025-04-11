@@ -1,0 +1,82 @@
+body {
+    height: 100vh;
+    background: linear-gradient(45deg, #ff00ff, #0606a1, #0f940f, #ff0000);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    color: #fa5b5b;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.coinn1 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff0e0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    border: none;
+    cursor: pointer;
+    margin-left:800px;
+    margin-bottom:25px;
+}
+
+.coinn1:hover {
+    transform: scale(1.03);
+    transition:0.3s;
+}
+.coinn1:active {
+    transform: scale(0.95);
+    transition: transform 0.1s;
+}
+
+.coinn1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.upgrade-btn {
+    background: #ff9966;
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.upgrade-btn:hover {
+    background: #ff5e62;
+    transform: scale(1.05);
+}
+
+.content {
+    margin-top: 20px;
+    font-size: 1.3em;
+}
+
+button {
+    border-radius: 20px;
+}
+button:active {
+    transform: scale(0.95);
+    transition: transform 0.1s;
+}
+.fade {
+    transition: opacity 0.5s ease;
+    opacity: 1;
+}
